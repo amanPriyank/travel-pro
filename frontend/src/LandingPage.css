@@ -1,0 +1,85 @@
+.landing-container {
+    font-family: Arial, sans-serif;
+    background-color: #eae6f7;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5a33e8;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .signup-btn {
+    background-color: #5a33e8;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    margin: 40px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .places {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .place {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .place img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .place h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
